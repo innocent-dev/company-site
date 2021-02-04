@@ -1,0 +1,65 @@
+body{
+	background-color:black;
+	color: white;
+	font-size:16px;
+}
+
+.nav{
+	background: grey;
+}
+
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style:none
+}
+
+.nav ul li{
+	border:2px solid white;
+	text-align:center;
+	padding: 10px 0px;
+}
+
+.nav ul li:hover{
+	background-color: #404040;
+}
+
+.centered-content{
+	text-align:center;
+}
+
+.welcome-image{
+	background-image: url("main image.jpg");
+	background-size:cover;
+	background-position: center center;
+	background-color: white;
+	padding: 80px 0px;
+}
+
+.image-text{
+	font-size:1.5em;	
+}
+
+.articles-intro
+{
+	font-size:2.5em;
+	text-align: center;
+}
+
+@media screen and (min-width: 700px)
+{
+	.nav ul{
+		text-align:right; 
+		padding-right: 0px;
+	}
+
+	.nav ul li{
+		display: inline-block;
+		text-align: center;
+		width: 20%;
+	}
+	.single-article{
+		float: left;
+		width: 50%;
+	}
+}
