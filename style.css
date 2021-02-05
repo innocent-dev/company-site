@@ -51,6 +51,16 @@ a:link{
 	color: white;
 }
 
+.heading{
+	background-color: white;
+	height: 100px;
+}
+
+.heading-text{
+	text-align: center;
+	color: black;
+	font-size: 1.2em;
+}
 @media screen and (min-width: 700px)
 {
 	.nav ul{
