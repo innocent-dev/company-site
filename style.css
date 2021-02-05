@@ -52,6 +52,14 @@ a:link{
 	font-weight: bold;
 }
 
+a:visited {
+  color: white;
+}
+
+#active {
+	background-color: #2a2626d6;
+}
+
 .heading{
 	background-color: white;
 	height: 80px;
@@ -72,7 +80,7 @@ a:link{
 	margin-top: 10px;
 }
 
-@media screen and (min-width: 700px)
+@media screen and (min-width: 710px)
 {
 	.nav{
 		width:100%;
@@ -83,9 +91,9 @@ a:link{
 	}
 
 	.nav ul li{
-		display: inline-block;
+		display:inline-block;
 		text-align: center;
-		width: 24.5%;
+		min-width: 24%;
 	}
 	.single-article{
 		float: left;
